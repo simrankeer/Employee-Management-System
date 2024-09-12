@@ -15,10 +15,6 @@ Python: Programming language used to implement the application logic.
 MySQL: Database management system for storing employee records.
 mysql-connector-python: Python library used to interact with the MySQL database.
 
-Setup and Installation
-Clone the Repository:
-git clone https://github.com/your-simrankeer/employee-management-system.git
-
 Install Dependencies: Make sure you have Python and MySQL Connector installed. You can install the MySQL Connector using pip:
 pip install mysql-connector-python
 
@@ -34,9 +30,7 @@ CREATE TABLE employees (
     salary DECIMAL(10, 2)
 );
 
-Run the Application: Execute the Python script to start the application:
-python file:///C:/Users/Harsh/Downloads/Employee%20Management%20System.html.py
-
+Run the python code:
 import mysql.connector
 
 try:
@@ -171,7 +165,7 @@ if __name__ == "__main__":
         cursor.close()
         con.close()
 
-Upon running the application, you will be presented with a menu to perform various operations:
+Upon running the code, you will be presented with a menu to perform various operations:
 Add Employee: Follow the prompts to enter employee details.
 Remove Employee: Enter the ID of the employee you wish to remove.
 Promote Employee: Enter the ID of the employee and the amount to increase their salary.
