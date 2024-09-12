@@ -35,7 +35,8 @@ CREATE TABLE employees (
 );
 
 Run the Application: Execute the Python script to start the application:
-file:///C:/Users/Harsh/Downloads/Employee%20Management%20System.html
+python file:///C:/Users/Harsh/Downloads/Employee%20Management%20System.html.py
+
 import mysql.connector
 
 try:
